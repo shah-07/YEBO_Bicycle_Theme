@@ -104,11 +104,12 @@ hr{
 .section-two .grid-container .area-two {
     padding: 10%;
     line-height: 2em;
+    margin-top: 5px;
 }
-
-.section-two .grid-container .area-three img {
-    width: 100%;
-    height: 100%;
+.section-two .grid-container .area-three {
+    background: url('../images/red-sit.jpg') no-repeat center / cover;
+    width: auto;
+    height: 200px;
 }
 
 
@@ -137,9 +138,10 @@ hr{
     grid-row-start: 2;
     grid-row-start: 3;
 }
-.section-three .grid-container .area-two img {
-    width: 100%;
-    height: 100%;
+.section-three .grid-container .area-two {
+    background: url('../images/black-sit.jpg') no-repeat center / cover;
+    width: auto;
+    height: 200px;
 }
 
 
@@ -193,7 +195,6 @@ hr{
     font-size: 1.2em;
     letter-spacing: .1em;
     color: #353738;
-    font-weight: bold;
 }
 .section-five h4 span {
     font-weight: 300;
@@ -236,7 +237,7 @@ hr{
     background-color: rgba(100, 194, 158, 0.7);
     top: 50%;
     left: 50%;
-    padding:100%;
+    padding: 100%;
     transform: translate(-50%, -50%);
     transition: 300ms;
     opacity: 0;
