@@ -51,7 +51,6 @@ hr{
     border-bottom: 2px solid transparent;
     transition: .2s;
     letter-spacing: .1em;
-    font-size: 1em;
 }
 .dotted::after {
     content: '';
@@ -135,15 +134,13 @@ hr{
     line-height: 2em;
 }
 .section-three .grid-container .area-two {
-    grid-row-start: 2;
-    grid-row-start: 3;
-}
-.section-three .grid-container .area-two {
     background: url('../images/black-sit.jpg') no-repeat center / cover;
     width: auto;
     height: 200px;
+    position: relative;
+    grid-row-start: 2;
+    grid-row-start: 3;
 }
-
 
 
 
@@ -168,10 +165,6 @@ hr{
 .section-four .grid-container .area-three {
     grid-column-start: 2;
     grid-row-start: 2;
-}
-.section-four .grid-container .area-three img {
-    width: 100%;
-    height: 100%;
 }
 .section-four .grid-container .area-four {
     background: url('../images/section-four-right-bg.jpg') no-repeat center / cover;
@@ -226,10 +219,6 @@ hr{
     position: relative;
     overflow: hidden;
 }
-.section-six .grid-container .overlay > img {
-    width: 100%;
-    height: 100%;
-}
 .section-six .grid-container .text-icon {
     width: 100%;
     text-align: center;
@@ -237,7 +226,7 @@ hr{
     background-color: rgba(100, 194, 158, 0.7);
     top: 50%;
     left: 50%;
-    padding: 100%;
+    padding: 500px;
     transform: translate(-50%, -50%);
     transition: 300ms;
     opacity: 0;
@@ -257,6 +246,49 @@ hr{
     height: auto;
     padding-bottom: 5px;
 }
+.item1 .item01 {
+    background: url('../images/section-six/img1.jpg') no-repeat center / cover;
+    min-height: 267px;
+    width: auto;
+}
+.item1 .item02 {
+    background: url('../images/section-six/img2.jpg') no-repeat center / cover;
+    min-height: 267px;
+    width: auto;
+}
+.item1 .item03 {
+    background: url('../images/section-six/img3.jpg') no-repeat center / cover;
+    min-height: 267px;
+    width: auto;
+}
+.item2 {
+    background: url('../images/section-six/img4.jpg') no-repeat center / cover;
+    min-height: 534px;
+    width: auto;
+}
+.item3 {
+    background: url('../images/section-six/img5.jpg') no-repeat center / cover;
+    min-height: 534px;
+    width: auto;
+}
+.item4 .item001 {
+    background: url('../images/section-six/img6.jpg') no-repeat center / cover;
+    min-height: 267px;
+    width: auto;
+}
+.item4 .item002 {
+    background: url('../images/section-six/img7.jpg') no-repeat center / cover;
+    min-height: 267px;
+    width: auto;
+}
+.item4 .item003 {
+    background: url('../images/section-six/img8.jpg') no-repeat center / cover;
+    min-height: 267px;
+    width: auto;
+}
+
+
+
 
 
 
@@ -304,4 +336,42 @@ hr{
 }
 .section-eight button:hover {
     background-color: #1f7755;
+}
+
+
+
+
+
+
+
+
+
+.section-four .area-three {
+    position: relative;
+    background: url('../images/middle-image.jpg') no-repeat center / cover;
+    width: auto;
+    min-height: 200px;
+}
+
+
+
+
+
+
+
+
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-top: 20px solid white;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.section-two .area-three {
+    position: relative;
 }
